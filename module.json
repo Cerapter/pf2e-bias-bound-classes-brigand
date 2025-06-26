@@ -1,0 +1,88 @@
+{
+  "id": "pf2e-bias-bound-classes-brigand",
+  "title": "PF2e - Bias-Bound Classes: Brigand",
+  "version": "#{VERSION}#",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "A foundry module containing everything from the Sailors of the Sightless Sea supplement.",
+  "authors": [
+    {
+      "name": "Sasha Laranoa Harving",
+      "discord": "stargaladin",
+      "flags": {}
+    },
+    {
+      "name": "Module by OfflineEnigma / Michael Hosp",
+      "email": "enigmahomebrew@gmail.com",
+      "discord": "offlineenigma",
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Bias-Bound Classes",
+      "sorting": "a",
+      "packs": [],
+      "folders": [
+        {
+          "name": "Brigand",
+          "sorting": "a",
+          "packs": [
+            "feats",
+            "abilities"
+          ],
+          "folders": [],
+          "color": null
+        }
+      ],
+      "color": null
+    }
+  ],
+  "packs": [
+    {
+      "name": "feats",
+      "label": "Feats",
+      "path": "packs/feats",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "abilities",
+      "label": "Abilities",
+      "path": "packs/abilities",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
+  "flags": {
+    "pf2e-bias-bound-classes-brigand": {
+      "pf2e-homebrew": {
+        "featTraits": {
+          "brigand": "Brigand"
+        }
+      }
+    }
+  }
+}
